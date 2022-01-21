@@ -1,0 +1,10 @@
+path: F:\DataSet\欧亚数据集2021\210812车辆\yolo\paper_data
+train: train.txt
+val: val.txt
+# number of classes
+nc: 4
+# class names
+names: ['Truck',
+           'SocialVehicle',
+           'FlowageVehicle',
+           'Person']
