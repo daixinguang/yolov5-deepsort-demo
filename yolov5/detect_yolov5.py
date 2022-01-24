@@ -110,7 +110,7 @@ class Yolov5():
                     annotator.box_label(xyxy, label, color=colors(c, True))
 
             # Print time (inference-only)
-            LOGGER.info(f'Detect Done. ({t3 - t2:.3f}s)')
+            # LOGGER.info(f'Detect Done. ({t3 - t2:.3f}s)')
             # Stream results
             im0 = annotator.result()
             if self.view_img:

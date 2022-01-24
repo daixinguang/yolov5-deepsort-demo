@@ -1,0 +1,27 @@
+conversetrack:
+- arrowCord:
+  - - 435
+    - 722
+  - - 441
+    - 772
+  lineCord:
+  - - 235
+    - 746
+  - - 635
+    - 698
+- arrowCord:
+  - - 432
+    - 517
+  - - 426
+    - 467
+  lineCord:
+  - - 550
+    - 503
+  - - 313
+    - 531
+sidetrack:
+- lineCord:
+  - - 239
+    - 349
+  - - 641
+    - 691

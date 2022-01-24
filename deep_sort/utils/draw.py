@@ -31,7 +31,7 @@ def draw_boxes(img, bbox, clss, trail_deque, identities=None, offset=(0, 0)):
         cv2.rectangle(img, (x1, y1), (x1 + t_size[0] + 3, y1 + t_size[1] + 4), color, -1)
         cv2.putText(img, label, (x1, y1 + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 2, [255, 255, 255], 2)
         # trail
-        trail_dict = dict()
+        # trail_dict = dict()
         if len(trail_deque) > 1:
             for i in range(len(trail_deque) - 1):
                 new = trail_deque[i]
